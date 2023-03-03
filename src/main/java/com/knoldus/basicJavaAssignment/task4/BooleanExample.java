@@ -1,7 +1,7 @@
 // Create a program that declares a boolean variable named "isRaining" and assigns it a value of true.
 // Using an if statement, print "Take an umbrella" if isRaining is true,
 // and "Enjoy the sunshine" otherwise.
-package com.knoldus4;
+package com.knoldus.basicJavaAssignment.task4;
 
 public class BooleanExample {
     public static void main(String[] args) {

@@ -2,7 +2,7 @@
 // them with the values true and false respectively. Using logical operators,
 //print "Bring a jacket and an umbrella" if both variables are true,
 // "Bring a jacket" if only isCold is true, and "Bring an umbrella" if only isRainy is true.
-package com.knoldus10;
+package com.knoldus.basicJavaAssignment.task10;
 
 public class logicalOperatorExample {
     public static void main(String[] args) {

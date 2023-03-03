@@ -1,6 +1,6 @@
 //Create a program that declares and initializes two double variables named "num1" and "num2" with the
 // values 3.14 and 6.28 respectively. Calculate the sum of these two variables and print the result.
-package com.knoldus2;
+package com.knoldus.basicJavaAssignment.task2;
 
 public class OperatorExample {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 //Write a program that declares two integer variables named "num1" and "num2" and initializes them
 // with the values 10 and 5 respectively. Using arithmetic operators, calculate the sum, difference,
 // product, and quotient of these two variables and print the results.
-package com.knoldus7;
+package com.knoldus.basicJavaAssignment.task7;
 
 public class ArithmeticOperatorsExample {
     public static void main(String[] args) {
