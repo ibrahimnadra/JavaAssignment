@@ -13,13 +13,13 @@ package com.knoldus.errorHandling.task2;
 import java.util.Random;
 import java.util.Scanner;
 class RandomNumber {
-    public int findRandomNumber() {
+    int findRandomNumber() {
         Random randomNumberObject = new Random();
         int randomNumber = randomNumberObject.nextInt(100) + 1;
         return randomNumber;
     }
 
-    public void guessingGame() {
+    void guessingGame() {
         Scanner in = new Scanner(System.in);
 
         //calling random function and storing it into another variable
@@ -52,7 +52,7 @@ class RandomNumber {
     }
 }
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
         RandomNumber random_object = new RandomNumber();
