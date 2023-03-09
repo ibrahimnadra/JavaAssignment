@@ -12,7 +12,7 @@ package com.knoldus.errorHandling.task2;
 
 import java.util.Random;
 import java.util.Scanner;
-public class RandomNumber {
+class RandomNumber {
     public int findRandomNumber() {
         Random randomNumberObject = new Random();
         int randomNumber = randomNumberObject.nextInt(100) + 1;
@@ -49,6 +49,21 @@ public class RandomNumber {
                 System.exit(0);
             }
         }
+    }
+}
 
+public class Main {
+
+    public static void main(String[] args) {
+        RandomNumber random_object = new RandomNumber();
+        //after catching exception it will again invoke the message;
+        boolean tryAgain = true;
+        while (tryAgain) {
+            try {
+                random_object.guessingGame();
+            } catch (Exception e) {
+                System.out.println("invalid input");
+            }
+        }
     }
 }
