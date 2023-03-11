@@ -15,6 +15,7 @@ public class ShapeImplementation {
         double radiusOfCircle = scannerObject.nextDouble();
         Circle circle = new Circle(radiusOfCircle);
         System.out.println("Area of Circle = " + circle.getArea());
+        System.out.println("Perimeter of Circle = " + circle.getPerimeter());
 
         System.out.println("Enter the length of rectangle : ");
         double lengthOfRectangle = scannerObject.nextDouble();
@@ -22,18 +23,14 @@ public class ShapeImplementation {
         double breadthOfRectangle = scannerObject.nextDouble();
         Rectangle rectangle = new Rectangle(lengthOfRectangle, breadthOfRectangle);
         System.out.println("Area of Rectangle = " + rectangle.getArea());
+        System.out.println("Perimeter of Rectangle = " + rectangle.getPerimeter());
 
         System.out.println("Enter the base of triangle : ");
         double baseOfTriangle = scannerObject.nextDouble();
         System.out.println("Enter the height of triangle : ");
         double heightOfTriangle = scannerObject.nextDouble();
-        double areaOfRightAngledTriangle = baseOfTriangle * heightOfTriangle / 2;
-        System.out.println("Area of Right-angled triangle  = " + areaOfRightAngledTriangle);
-        Triangle triangle = new Triangle(4, 5, 3, 4, 5);
-
-        System.out.println("Circle area: " +);
-        System.out.println("Rectangle area: " +);
-        System.out.println("Triangle area: " +triangle.getArea());
-
+        Triangle rightAngledTriangle = new Triangle(baseOfTriangle, heightOfTriangle);
+        System.out.println("Area of Right-angled triangle  = " + rightAngledTriangle.getArea());
+        System.out.println("Perimeter of Right-angled triangle  = " + rightAngledTriangle.getPerimeter());
     }
 }
