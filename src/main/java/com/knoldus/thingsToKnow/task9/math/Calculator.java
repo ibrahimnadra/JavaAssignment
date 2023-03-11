@@ -1,3 +1,6 @@
+//Create a Java package called "math" that contains a class called "Calculator".
+// Define methods for addition, subtraction, multiplication, and division.
+// Import the package into a Java program and use the methods to perform some calculations.
 package com.knoldus.thingsToKnow.task9.math;
 
 public class Calculator {

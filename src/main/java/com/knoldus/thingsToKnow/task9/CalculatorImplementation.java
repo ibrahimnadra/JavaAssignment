@@ -1,4 +1,5 @@
-package com.knoldus.thingsToKnow.task9.math;
+package com.knoldus.thingsToKnow.task9;
+import com.knoldus.thingsToKnow.task9.math.*;
 
 import java.util.Scanner;
 
