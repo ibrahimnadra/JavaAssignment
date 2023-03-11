@@ -1,4 +1,4 @@
-package com.knoldus.thingsToKnow.task10;
+package com.knoldus.thingsToKnow.task10.shapes;
 
 public class Rectangle {
     private double length;

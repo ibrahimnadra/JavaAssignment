@@ -1,4 +1,5 @@
-package com.knoldus.thingsToKnow.task11.game;
+package com.knoldus.thingsToKnow.task11;
+import com.knoldus.thingsToKnow.task11.game.*;
 
 import java.util.Scanner;
 

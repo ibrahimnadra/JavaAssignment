@@ -6,6 +6,8 @@
 
 package com.knoldus.thingsToKnow.task10;
 
+import com.knoldus.thingsToKnow.task10.shapes.*;
+
 import java.util.Scanner;
 
 public class ShapeImplementation {
