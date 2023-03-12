@@ -5,12 +5,19 @@
 package com.knoldus.task5;
 
 class Sales{
-    private double duration;
-    private double salesInDuration;
+    private double amount;
+    //days of a month in which the salesperson made sale
+    private double durationInDays;
 }
 class SalesPerson{
-    String name;
-    Sales sales;
+    private String name;
+    private Sales salesIn;
+    private Sales salesInApril;
+    private Sales salesInMay;
+    public void getTotalSales(){
+
+    }
+
 }
 
 
